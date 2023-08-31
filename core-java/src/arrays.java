@@ -11,5 +11,21 @@ public class arrays {
 
         System.out.println("First value of array 1: " + numArray1[0]);
         System.out.println("First value of array 2: " + numArray2[0]);
+
+        // for loop
+        for (int i = 0; i < numArray1.length; i++) {
+            System.out.println("Value at index " + i + ": " + numArray1[i]);
+        }
+
+        for (int j = numArray2.length - 1; j >= 0; j--) {
+            System.out.println("Value at index " + j + ": " + numArray2[j]);
+        }
+
+        String[] names = { "Hamza", "Ali", "Khan", "Niazi" };
+
+        // different and better implementation of for loop ("Enhanced for loop")
+        for (String s : names) {
+            System.out.println(s);
+        }
     }
 }
