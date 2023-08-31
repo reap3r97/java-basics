@@ -23,8 +23,9 @@ public class arrays {
 
         String[] names = { "Hamza", "Ali", "Khan", "Niazi" };
 
-        for (int z = 0; z < names.length; z++) {
-            System.out.println(names[z]);
+        // different and better implementation of for loop ("Enhanced for loop")
+        for (String s : names) {
+            System.out.println(s);
         }
     }
 }
